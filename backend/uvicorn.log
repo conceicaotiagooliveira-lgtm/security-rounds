@@ -1,0 +1,111 @@
+INFO:     Will watch for changes in these directories: ['/home/tiago/Vite/Frota/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+INFO:     Started reloader process [180514] using StatReload
+INFO:     Started server process [180516]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:52210 - "GET /api/vehicles/1/refuelings HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:34432 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34444 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34432 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34444 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34444 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34444 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41682 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41682 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33336 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48358 - "GET /api/vehicles/1/refuelings HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57898 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57914 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57898 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57916 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57916 - "OPTIONS /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57898 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57914 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57898 - "OPTIONS /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57916 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53794 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53794 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44314 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40012 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40012 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40012 - "OPTIONS /api/drivers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40020 - "OPTIONS /api/drivers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40032 - "GET /api/drivers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40032 - "GET /api/drivers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40032 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40032 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40020 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40032 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40032 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55620 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55628 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55628 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55620 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55620 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55620 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49302 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49318 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49318 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49302 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49302 - "OPTIONS /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49318 - "OPTIONS /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49324 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49324 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49324 - "OPTIONS /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49318 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48178 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48178 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48178 - "GET /api/drivers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48178 - "GET /api/drivers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32854 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32854 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32870 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32854 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32854 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32836 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32850 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32850 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32836 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32836 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32850 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32850 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37424 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37436 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37436 - "GET /api/vehicles HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:37424 - "GET /api/vehicles HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:37436 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37436 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37424 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37424 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37448 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37448 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37424 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37424 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41670 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41676 - "OPTIONS /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41676 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41670 - "GET /api/vehicles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41676 - "GET /api/vehicles/1/refuelings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41676 - "GET /api/vehicles/2/refuelings HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'app/models/vehicle.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [180516]
+INFO:     Started server process [198913]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/schemas/vehicle.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [198913]
+INFO:     Started server process [199019]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [199019]
+INFO:     Stopping reloader process [180514]

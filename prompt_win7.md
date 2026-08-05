@@ -1,0 +1,5 @@
+"Estou trabalhando em um projeto frontend que utiliza Vite e Tailwind CSS v4. Quando acesso a aplicação em computadores antigos rodando Windows 7 (Google Chrome versão 109), o layout fica todo desconfigurado: os fundos ficam transparentes, bordas ficam pretas e os estilos não aplicam. Sei que isso ocorre porque o Tailwind v4 gera nativamente cores no formato oklch(), o qual não é suportado pelo Chrome 109.
+
+Para resolver isso, quero que você faça com que o Vite converta esse CSS moderno para um CSS retrocompatível (ex: convertendo oklch para rgb). Por favor, siga estes passos:
+
+1. Forneça o comando para instalar a biblioteca lightningcss como dependência de desenvolvimento. 2. Edite o meu arquivo vite.config.ts para usar o lightningcss como transformer e como minificador (cssMinify). 3. Dentro da configuração do lightningcss no vite.config.ts, defina os targets (utilizando os operadores bitwise) para garantir o suporte mínimo ao Chrome 109, Edge 109 e navegadores da época (exemplo: chrome: 109 << 16)."

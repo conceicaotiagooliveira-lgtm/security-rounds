@@ -1,0 +1,3 @@
+"Estou configurando um PWA usando Vite (vite-plugin-pwa) e preciso que a instalação funcione perfeitamente no Samsung Internet e no Google Chrome (Android). Ajuste a configuração do meu manifest no vite.config.ts para que o array de icons seja infalível contra bugs de leitura de navegadores.
+
+Regras: 1. O ícone de 192x192 deve ter explicitamente purpose: 'any'. 2. Em vez de usar purpose: 'any maskable' no ícone de 512x512, você deve duplicar a entrada do ícone de 512x512: uma entrada exclusiva com purpose: 'maskable' e uma entrada exclusiva com purpose: 'any'. Isso é para evitar falhas no parse do Samsung Internet que esconde o botão de instalar."

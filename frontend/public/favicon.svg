@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="32" fill="#0f172a"/>
+  <text x="96" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#a78bfa">F&amp;P</text>
+  <path d="M56 110 L96 90 L136 110 L136 140 L96 160 L56 140 Z" fill="none" stroke="#34d399" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="76" cy="125" r="5" fill="#34d399"/>
+  <circle cx="96" cy="115" r="5" fill="#34d399"/>
+  <circle cx="116" cy="125" r="5" fill="#34d399"/>
+</svg>
