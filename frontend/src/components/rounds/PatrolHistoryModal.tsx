@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Clock, MapPin, AlertTriangle, Calendar, Shield, ChevronDown, Navigation, Eye, User } from 'lucide-react';
+import { X, Clock, MapPin, AlertTriangle, Calendar, Shield, ChevronDown, Navigation, Eye, User, MessageSquare } from 'lucide-react';
 import { MapContainer, TileLayer, Polyline, Marker, Polygon, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -245,6 +245,12 @@ export default function PatrolHistoryModal({ isOpen, onClose, routeId, routeName
                                   </p>
                                 </>
                               )}
+                              {patrol.observations && (
+                                <span className="bg-blue-50 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded-md border border-blue-200 flex items-center gap-1">
+                                  <MessageSquare className="w-3 h-3 text-blue-500" />
+                                  Obs. Registrada
+                                </span>
+                              )}
                             </div>
                           </div>
                         </div>
@@ -285,6 +291,32 @@ export default function PatrolHistoryModal({ isOpen, onClose, routeId, routeName
                           )}
                         </div>
                       </div>
+
+                      {/* Observations Preview directly on Card */}
+                      {patrol.observations && (
+                        <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/70 border-l-4 border-l-blue-500 rounded-r-xl p-3 shadow-xs">
+                          <p className="text-[10px] uppercase font-extrabold text-blue-700 flex items-center gap-1.5 mb-1">
+                            <MessageSquare className="w-3.5 h-3.5 text-blue-600" />
+                            Observação do Vigia:
+                          </p>
+                          <p className="text-xs font-semibold text-slate-800 line-clamp-3 whitespace-pre-wrap">
+                            {patrol.observations}
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Delay Justification Preview directly on Card */}
+                      {patrol.delay_justification && (
+                        <div className="mt-3 bg-red-50/80 border-l-4 border-l-red-500 rounded-r-xl p-3 shadow-xs">
+                          <p className="text-[10px] uppercase font-extrabold text-red-700 flex items-center gap-1.5 mb-1">
+                            <AlertTriangle className="w-3.5 h-3.5 text-red-600" />
+                            Justificativa de Atraso:
+                          </p>
+                          <p className="text-xs font-semibold text-slate-800 line-clamp-3 whitespace-pre-wrap">
+                            {patrol.delay_justification}
+                          </p>
+                        </div>
+                      )}
                     </div>
 
                     {/* Expanded detail */}
